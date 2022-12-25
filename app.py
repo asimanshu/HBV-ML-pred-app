@@ -28,6 +28,7 @@ import statsmodels as sm
 
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 # In[3]:
 
